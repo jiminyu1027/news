@@ -1,8 +1,10 @@
 # 뉴스타임즈
 
-API호출하여 뉴스 타임즈 만들기.
+자바스크립트로 API호출하여 뉴스 타임즈 만들기.
 
-- Demo : []()
+![제목을 입력해주세요_-006 (1)](https://user-images.githubusercontent.com/92264611/176115150-b855d3c9-40b5-41fa-9667-4c18aa3762af.png)
+
+- Demo : [https://newstimes-jm.netlify.app/](https://newstimes-jm.netlify.app/)
 
 ## 개발 목표
 
