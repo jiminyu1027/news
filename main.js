@@ -11,10 +11,11 @@ menus.forEach((menu) => {
   });
 });
 
+
 const getNews = async () => {
   try {
     let header = new Headers({
-      "x-api-key": "STH5RhShiOHEgEEgXMiE0LbHc9cpCPZyGBPSXa2Hai8",
+      "x-api-key": "wqh-ChN44N2keUbGWHsYH6PC7cqeXrKTvOKYm7cDmH8",
     });
     url.searchParams.set("page", page);
 

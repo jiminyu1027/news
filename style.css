@@ -1,7 +1,11 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
 .head-line {
   margin-top: 1em;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 .head-line svg {
   width: 430px;
@@ -30,14 +34,33 @@
   border-bottom: 2px solid black;
   padding: 1em 0;
 }
-#search-btn{
-    background-color: white;
-    border:1px solid rgb(44, 127, 160);
-    color: rgb(44, 127, 160);
+#search-btn {
+  background-color: white;
+  border: 1px solid rgb(44, 127, 160);
+  color: rgb(44, 127, 160);
 }
 
-#search-btn:hover{
-    background-color:  rgb(44, 127, 160);
-    border:1px solid white;
-    color: white;
+#search-btn:hover {
+  background-color: rgb(44, 127, 160);
+  border: 1px solid white;
+  color: white;
+}
+.pageBox {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.page-item.active .page-link {
+  color: #fff;
+  background-color: rgb(44, 127, 160);
+  border-color: rgb(44, 127, 160);
+  border-radius: 0px;
+}
+.page-item,.page-link{
+  color: rgb(44, 127, 160);
+  background-color:white;
+  border: 0;
+}
+.page-link:hover{
+  color: rgb(44, 127, 160);
 }
